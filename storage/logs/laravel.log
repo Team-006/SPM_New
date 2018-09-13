@@ -601,3 +601,45 @@
 #50 C:\\xampp\\htdocs\\SPM2018\\spm\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #51 {main}
 "} 
+[2018-09-13 15:38:59] local.ERROR: There are no commands defined in the "generate:" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"generate:\" namespace. at C:\\xampp\\htdocs\\SPM_New\\vendor\\symfony\\console\\Application.php:578)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\SPM_New\\vendor\\symfony\\console\\Application.php(618): Symfony\\Component\\Console\\Application->findNamespace('generate:')
+#1 C:\\xampp\\htdocs\\SPM_New\\vendor\\symfony\\console\\Application.php(226): Symfony\\Component\\Console\\Application->find('generate::key')
+#2 C:\\xampp\\htdocs\\SPM_New\\vendor\\symfony\\console\\Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\xampp\\htdocs\\SPM_New\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\xampp\\htdocs\\SPM_New\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 C:\\xampp\\htdocs\\SPM_New\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2018-09-13 15:39:52] local.ERROR: There are no commands defined in the "key:" namespace.
+
+Did you mean this?
+    key {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"key:\" namespace.
+
+Did you mean this?
+    key at C:\\xampp\\htdocs\\SPM_New\\vendor\\symfony\\console\\Application.php:578)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\SPM_New\\vendor\\symfony\\console\\Application.php(618): Symfony\\Component\\Console\\Application->findNamespace('key:')
+#1 C:\\xampp\\htdocs\\SPM_New\\vendor\\symfony\\console\\Application.php(226): Symfony\\Component\\Console\\Application->find('key::generate')
+#2 C:\\xampp\\htdocs\\SPM_New\\vendor\\symfony\\console\\Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\xampp\\htdocs\\SPM_New\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\xampp\\htdocs\\SPM_New\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 C:\\xampp\\htdocs\\SPM_New\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2018-09-13 15:40:10] local.ERROR: There are no commands defined in the "key:" namespace.
+
+Did you mean this?
+    key {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"key:\" namespace.
+
+Did you mean this?
+    key at C:\\xampp\\htdocs\\SPM_New\\vendor\\symfony\\console\\Application.php:578)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\SPM_New\\vendor\\symfony\\console\\Application.php(618): Symfony\\Component\\Console\\Application->findNamespace('key:')
+#1 C:\\xampp\\htdocs\\SPM_New\\vendor\\symfony\\console\\Application.php(226): Symfony\\Component\\Console\\Application->find('key::generate')
+#2 C:\\xampp\\htdocs\\SPM_New\\vendor\\symfony\\console\\Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\xampp\\htdocs\\SPM_New\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\xampp\\htdocs\\SPM_New\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 C:\\xampp\\htdocs\\SPM_New\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
