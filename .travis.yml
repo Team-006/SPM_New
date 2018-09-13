@@ -1,13 +1,13 @@
 language: php
 
 php:
-  - stable
+  - 7.2.5
 
 before_script:
   - cp .env.travis .env
   - composer self-update
   - composer install --no-interaction
-  - npm insstall 
+  - npm install
 
 script:
   - php artisan key:generate
